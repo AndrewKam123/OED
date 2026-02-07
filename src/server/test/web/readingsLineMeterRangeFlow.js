@@ -7,6 +7,8 @@
     See: https://github.com/OpenEnergyDashboard/DesignDocs/blob/main/testing/testing.md for information.
 */
 
+// Implementation of LR26
+
 const { chai, mocha, app } = require('../common');
 const Unit = require('../../models/Unit');
 const { prepareTest,
